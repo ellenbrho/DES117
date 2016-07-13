@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand);
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body {
+    background: linear-gradient(to bottom, #3477BD, #FFFFFF);
+}
+
+
+.floatright {
+    float:right;
+}
+
+.floatleft {
+    float:left;
+    padding-top: 10pt;
+    padding-left: 30px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.column {
+    float: left;
+}
+
+h2 {
+    font-size: 30pt;
+}
+h3 {
+    font-size: 19pt;
+}
+h4 {
+    font-size: 15pt;
+}
+
+.fontsize {
+    font-size: 15pt;
+}
+
+.navigation {
+    font-family: 'Patrick Hand';
+    font-size: 15pt;
+    color: white;
+    word-spacing: 50px;
+    width: 100%;
+    height: 140px;
+    padding-right: 50px;
+    line-height: 120pt;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    word-spacing: 0px;
+}
+
+.block {
+    color: #3477BD;
+    padding: 10px;
+    background-color:white;
+}
+
+.pagecontainer {
+    width: 910px;
+    height: 700px;
+    margin: auto;
+    padding: 40pt;
+    padding-top: 30pt;
+    padding-bottom: 20pt;
+    padding-left: 30pt;
+    font-family: 'Patrick Hand';
+    background-color: white;
+}
+
+.container {
+    width: 45%;
+    height: 500px;
+    margin: auto;
+    float: left;
+    padding-bottom: 40pt;
+}
+
+.infocontainer {
+    width: 45%;
+    float: left;
+    padding-bottom: 40pt;
+    padding-left: 60pt;
+}
+
+.contactsheet {
+    width: 45%;
+    height: 500px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.namebox {
+    width: 400px;
+}
+.emailbox {
+    width: 400px;
+}
+.dropdown {
+    width: 400px;
+    font-family: 'Lora';
+}
+.messagebox {
+    width: 400px;
+    height: 213px;
+}
+
+article a {
+    background-color: #3477BD;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.text {
+    font-family: 'Patrick Hand';
+}
+
+.social_media1{
+    visibility: hidden;
+}
+
+footer .social_media {
+    width: 100%;
+    word-spacing: 15pt;
+    padding: 25px;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Patrick Hand';
+    font-size: 10pt;
+    color: #3477BD;
+    text-align: center;
+    padding: 20pt;
+    line-height: 14pt;
+    margin:auto;
+}
+
+footer a {
+    color: #3477BD;
+    text-decoration: none;
+    word-spacing: 0pt;
+}
